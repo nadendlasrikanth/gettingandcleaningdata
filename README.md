@@ -30,4 +30,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 And we need to upload  tidydata set as a txt file created with write.table() using row.name=FALSE as output.
 
-
+setwd() to local directory of data downloaded. Then run run_analysis.R script to get approrpiate output mentioned above.
