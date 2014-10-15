@@ -32,7 +32,7 @@ After setting the source directory for the files using setwd() in RStudio, read 
 - x_test.txt
 - y_test.txt
 
-merge trainingdata and testdata into final data.
+merge trainingData and testData into finalData.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 Create a logicalVector that contains TRUE values for the ID, mean() & stddev() columns and FALSE for others and setset the final data.
@@ -45,6 +45,6 @@ Cleaning up the variable names, Reassigning the new descriptive column names to 
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-create tidydata set as a txt file created with write.table() using row.name=FALSE as output.
+tidydata set as a txt file created with write.table() using row.name=FALSE as output.
 
 Intially we need to setwd() to local directory of data downloaded. Then run run_analysis.R script to get approrpiate output mentioned above.
