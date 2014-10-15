@@ -31,6 +31,7 @@ After setting the source directory for the files using setwd() in RStudio, read 
 - subject_test.txt
 - x_test.txt
 - y_test.txt
+
 merge trainingdata and testdata into final data.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
